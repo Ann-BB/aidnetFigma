@@ -134,7 +134,36 @@
                 </div>
            </div>
        </div>
-       <div class="slider"></div>
+       <div class="slider">
+        <input type="radio" name="css-fadeshow" id="slide-1" />
+		<input type="radio" name="css-fadeshow" id="slide-2" />
+		<input type="radio" name="css-fadeshow" id="slide-3" />
+		<input type="radio" name="css-fadeshow" id="slide-4" />
+       </div>
+		<!-- <div class="fs-slides">
+			<div class="fs-slide" style="background-image: url(image/I-bg.jpg);">
+				
+				<div class="I-SectionText">
+                    <h2>შეუკვეთეთ თქვენი ოცნების <br>
+                        სამზარეულო</h2>
+                    <div class="btn-div">
+                        <button class="I_btn-a">დანიშნეთ შეხვედრა</button>
+                        <button class="I_btn-b" >კატალოგი</button>
+                    </div>
+				</div>
+			</div>
+			<div class="fs-slide" style="background-image: url(image/I-bg.jpg);"></div>
+			<div class="fs-slide" style="background-image: url(image/I-bg.jpg);"></div>
+			<div class="fs-slide" style="background-image: url(image/I-bg.jpg);"></div>
+		</div>
+
+		
+		<div class="quick-nav">
+			<label class="fs-quick-btn" for="slide-1"></label>
+			<label class="fs-quick-btn" for="slide-2"></label>
+			<label class="fs-quick-btn" for="slide-3"></label>
+		</div> -->
+		
    </section>
    <section class="II-block">
        <div class="II-block-Div">
@@ -182,7 +211,7 @@
                       <p>1</p>
                       <img src="./image/fourBox-I.jpg" alt="">
                   </div>
-                  <div class="text-left">
+                  <div class="text-right">
                     <h4>
                         1/აზომვა
                     </h4>
@@ -196,7 +225,7 @@
                       <p>2</p>
                       <img src="./image/fourBox-II.jpg" alt="">
                   </div>
-                  <div class="text-left">
+                  <div class="text-right">
                     <h4>
                         2/3D დიზაინი
                     </h4>
@@ -210,7 +239,7 @@
                       <p>3</p>
                       <img src="./image/fourBox-III.jpg" alt="">
                   </div>
-                  <div class="text-left">
+                  <div class="text-right">
                     <h4>3/მოტანა</h4>
                     <p>  თუ გსურთ გამოიყენოთ ყველა ადგილი, შეარჩიეთ ოები.</p>
                   </div>
@@ -220,7 +249,7 @@
                       <p>4</p>
                       <img src="./image/fourBox-IV.jpg" alt="">
                   </div>
-                  <div class="text-left">
+                  <div class="text-right">
                     <h4>
                         4/მონტაჟი
                     </h4>
@@ -233,15 +262,85 @@
        </div>
    </section>
    <section class="IV-block">
-       <div>
+       <div class="IV-text">
            <h3>დაიწყე შენი პროექტი დღეს</h3>
            <div></div>
-           <h3>დაზოგე 40% ფასდაკლებით</h3>
-           <button>გადადით კატალოგში</button>
+           <h3 style="margin-top: 21px;">დაზოგე 40% ფასდაკლებით</h3>
+           <button class="IV-textBtn">გადადით კატალოგში</button>
        </div>
    </section>
    <footer>
-       
+       <div class="footerBox">
+           <div class="footer-I">
+               <div class="footerLogo">
+                   <img src="./image/footerBird.png" alt="bird">
+                   <img src="./image/footerText.png" alt="">
+               </div>
+               <div class="footer-I-text">
+                   <h3>ხელი მოაწერეთ ჩვენს გაზეთს</h3>
+                   <div class="footer-input">
+                    <form action="#">
+                        <input class="footerINPUT" type="email" name="email" id="email" placeholder="ელ.ფოსტა">
+                        <button class="footer_email-btn">
+                            <i class="fas fa-location-arrow"></i>
+                        </button>
+                    </form>
+                   </div>
+                   <h4>სოციალური</h4>
+                   <div class="footer_soc-icons">
+                        <ul class="footer_soc-inner">
+                            <li>
+                                <a class="same-icon_a" href="#">
+                                    <i class="fab fa-facebook-f same-icon"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="same-icon_a" href="#">
+                                    <i class="fab fa-twitter same-icon"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="same-icon_a" href="#">
+                                    <i class="fab fa-youtube same-icon"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="same-icon_a" href="#">
+                                    <i class="fab fa-pinterest-p same-icon"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <button class="footerBTN">დაგვიკავშირდით</button>
+                <p class="footerTEXT">Copyright © 2020 - All Rights Reserved</p>
+           </div>
+           <div class="footer-II">
+               <h3>კლიენტების მომსახურება</h3>
+               <ul class="footer-list-ul">
+                   <li>ხშირად დასმული კითხვები</li>
+                   <li>მომხმარებელთა მიმოხილვები</li>
+                   <li>ინფორმაცია მიწოდების შესახებ</li>
+                   <li>გაუქმებები</li>
+                   <li>ინსტალაციის პირობები</li>
+                   <li>კაბინეტის გარანტია</li>
+                   <li>საჩივრების პოლიტიკა</li>
+               </ul>
+           </div>
+           <div class="footer-III">
+               <h3>სასარგებლო ინსტრუმენტები</h3>
+               <ul class="footer-list-ul">
+                   <li>გაზომეთ თქვენი სამზარეულო</li>
+                   <li>დანიშნეთ შეხვედრა</li>
+                   <li>მოითხოვეთ თქვენი ბროშურა</li>
+                   <li>იპოვნეთ შოურუმი</li>
+                   <li>ონლაინ დიზაინის ინსტრუმენტი</li>
+                   <li>ინსტალაციის სახელმძღვანელო</li>
+                   <li>როგორ ვიყიდოთ სამზარეულო</li>
+                   <li>ფასების შედარება</li>
+               </ul>
+           </div>
+       </div>
    </footer>
 </body>
 </html>
